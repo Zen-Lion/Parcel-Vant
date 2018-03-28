@@ -1,0 +1,30 @@
+{
+  "name": "parcel-vant",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "zenlion",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /",
+    "watch": "parcel watch index.html"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-vue": "2.0.1",
+    "less": "^2.7.3",
+    "node-sass": "4.7.2",
+    "parcel-bundler": "1.6.2",
+    "parcel-plugin-vue": "1.5.0",
+    "vue-hot-reload-api": "2.3.0",
+    "vue-template-compiler": "2.5.16"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vant": "^1.0.3",
+    "vue": "^2.5.16",
+    "vuex": "^3.0.1",
+    "vue-router": "^3.0.1"
+  }
+}
