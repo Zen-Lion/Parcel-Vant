@@ -1,1 +1,3 @@
 # Parcel-Vant
+
+yarn install
